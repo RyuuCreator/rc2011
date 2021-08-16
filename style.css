@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***Front***/
+@font-face {
+    font-family: 'AparajitaRegular';
+    src: url('font\Aparajita\aparaj-webfont.eot');
+    src: url('font\Aparajita\aparaj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font\Aparajita\aparaj-webfont.woff') format('woff'),
+         url('font\Aparajita\aparaj-webfont.ttf') format('truetype'),
+         url('font\Aparajita\aparaj-webfont.svg#AparajitaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrushScriptStdMedium';
+    src: url('font\BrushScript\brushscriptstd-webfont.eot');
+    src: url('font\BrushScript\brushscriptstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font\BrushScript\brushscriptstd-webfont.woff') format('woff'),
+         url('font\BrushScript\brushscriptstd-webfont.ttf') format('truetype'),
+         url('font\BrushScript\brushscriptstd-webfont.svg#BrushScriptStdMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***Site***/
+.container {
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	width: 1024px;
+	height:768px;
+}
+
+/***Header***/
+.header{ 
+	width: 1024px; 
+	height: 230px;
+}
+.menu{ 
+	height: 25px; 
+	margin-top: -28px;
+}
+.menu a{	
+	color:#FFF;
+	font-family: 'AparajitaRegular'; 
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center; 
+	padding-left: 24px; 
+	padding-right: 24px; 
+	text-shadow: 0px 0px 7px #F77602;
+}
+.menu a:hover { 
+	text-shadow: 0px 0px 10px #ffff00;
+}
+
+
+/***BLog***/
+.blog{
+	width: 1024px;
+	height: 600px;
+	background: url(img/bkg-fond-presentation.png) no-repeat;	
+}
+.presentation{
+	margin: auto;
+	padding-top: 70px;
+	width: 845px;
+	height: 600px;
+	color: #000;
+	font-family: 'AparajitaRegular'; 
+	font-size: 16px;
+	text-decoration: none;
+}
+.photo{
+	width: 845px;
+	float: left;
+	padding-left: 23px;
+	padding-top: 20px;
+}
+.photo img{
+	border: none;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.sidbar{
+	float: right;
+	width: 153px;
+	height: 600px;
+	border-left: 3px solid #000;
+}
+.sidbar img{
+	border: none;
+	padding-right: 3px;
+	padding-top: 15px;
+}
+
+
+/***Footer***/
+.footer{
+	background: url(img/bkg-footer.png) no-repeat;
+	width: 1024px;
+	height: 35px;
+}
+.footer .a1 a{
+	color: #FFF;
+	font-family: "Brush Script Std";
+	font-size: 12px;
+	text-decoration: none;
+	float: left;
+	text-shadow: 0px 0px 7px #F77602;
+	padding-left: 15px;
+	padding-top: 6px;
+}
+.footer .a3 a{
+	color: #FFF;
+	font-family: "Brush Script Std";
+	font-size: 12px;
+	text-decoration: none;
+	text-shadow: 0px 0px 7px #F77602;
+	float: right;
+	padding-right: 15px;
+	padding-top: 6px;
+}
+.footer .a2 a{
+	color: #FFF;
+	font-family: "Brush Script Std";
+	font-size: 12px;
+	text-decoration: none;
+	text-shadow: 0px 0px 7px #F77602;
+	padding-top: 6px;
+	float: left;
+	padding-left: 330px;
+}
